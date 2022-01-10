@@ -1,0 +1,38 @@
+{
+  "parent": "ensaut:block/template_table_turing",
+  "textures": {
+    "table_turing": "ensaut:block/table_turing"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [0, 3.25, 0],
+      "scale": [0.4, 0.4, 0.4]
+    },
+    "thirdperson_lefthand": {
+      "translation": [0, 3.25, 0],
+      "scale": [0.4, 0.4, 0.4]
+    },
+    "firstperson_righthand": {
+      "scale": [0.7, 0.7, 0.7]
+    },
+    "firstperson_lefthand": {
+      "scale": [0.7, 0.7, 0.7]
+    },
+    "ground": {
+      "translation": [0, 1.25, 0],
+      "scale": [0.65, 0.65, 0.65]
+    },
+    "gui": {
+      "rotation": [45, 45, 0],
+      "translation": [0, 1.75, 0],
+      "scale": [0.7, 0.7, 0.7]
+    },
+    "head": {
+      "translation": [0, 14.5, 0]
+    },
+    "fixed": {
+      "rotation": [-90, 0, 0],
+      "translation": [0, 0, -8]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": {"model": "ensaut:block/table_turing"}
+  }
+}

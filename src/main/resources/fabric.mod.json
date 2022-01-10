@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "es",
+  "version": "${version}",
+
+  "name": "Ensorcelled Automatons",
+  "description": "A magic-tech mod which adds automatons, machines, tools and gadgets to play with.",
+  "authors": [
+    "zodiuxus"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/ensaut/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.zodiuxus.ensorcelledautomatons.EnsorcelledAutomatons"
+    ],
+    "client": [
+      "com.zodiuxus.ensorcelledautomatons.EnsorcelledAutomatonsClient"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
